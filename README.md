@@ -1,2 +1,5 @@
 # HotelBookingDemand-AnalysisCC50
-TA1 #3
+## Para la TA1 #3
+## Por: 
+* <kbd>C</kbd>: César Mosqueira
+* <kbd>S</kbd>: Sebastián Arana
