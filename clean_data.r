@@ -4,7 +4,7 @@ path = "dataset-hotel-bookings.csv"
 na_values = c("", "Undefined", "NA")
 # read csv ignoring {na_values}
 hotel <- read.csv(path, na.strings=na_values)
-View(head(hotel, 15))
+# View(head(hotel, 15))
 dim(hotel) #119390 32
 sum(is.na(hotel))
 
@@ -31,7 +31,7 @@ hotel <- hotel[,!(names(hotel) %in% c("arrival_date_year",
 # put it into the existing df
 hotel$arrival_date = dates
 # parse it
-hotel %>% group_by(hotel) %>%
-  mutate(arrival_date=as.Date(arrival_date, format = "%Y-%m-%d"))
+#hotel %>% group_by(hotel) %>%
+#  mutate(arrival_date=as.Date(arrival_date, format = "%Y-%m-%d"))
 
 write.csv(hotel, "clean-hotel-bookings.csv")
