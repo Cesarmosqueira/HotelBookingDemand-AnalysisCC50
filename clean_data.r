@@ -1,5 +1,5 @@
 setwd('~/Documents/AdminInfo/HotelBookingDemand-AnalysisCC50')
-path = "dataset-hotel-bookings.csv"
+path <- "dataset-hotel-bookings.csv"
 
 na_values = c("", "Undefined", "NA")
 # read csv ignoring {na_values}
@@ -34,4 +34,4 @@ hotel$arrival_date = dates
 #hotel %>% group_by(hotel) %>%
 #  mutate(arrival_date=as.Date(arrival_date, format = "%Y-%m-%d"))
 
-write.csv(hotel, "clean-hotel-bookings.csv")
+write.csv(hotel, "~/Documents/AdminInfo/HotelBookingDemand-AnalysisCC50/clean-hotel-bookings.csv")
