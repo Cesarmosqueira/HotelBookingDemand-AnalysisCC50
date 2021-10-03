@@ -1,5 +1,5 @@
 setwd('~/Documents/AdminInfo/HotelBookingDemand-AnalysisCC50')
-path = "clean-hotel-bookings.csv"
+path = "dataset/clean-hotel-bookings.csv"
 
 hotel <- read.csv(path, na.strings="")
 #View(hotel)

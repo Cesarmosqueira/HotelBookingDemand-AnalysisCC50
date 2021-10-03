@@ -1,5 +1,5 @@
 setwd('~/Documents/AdminInfo/HotelBookingDemand-AnalysisCC50')
-path <- "dataset-hotel-bookings.csv"
+path <- "dataset/dataset-hotel-bookings.csv"
 
 na_values = c("", "Undefined", "NA")
 # read csv ignoring {na_values}
