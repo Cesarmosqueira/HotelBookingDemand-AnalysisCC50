@@ -3,7 +3,7 @@
 ## ANÁLISIS EXPLORATORIO DE UN CONJUNTO DE DATOS EN R/RSTUDIO
 
 ### Objetivo del Trabajo
-Realizar un análisis exploratorio de un conjunto de datos, creando visualizaciones, preparando los datos y obteniendo inferencias básicas utilizando R/RStudio como herramienta de software.
+En el presente trabajo, se busca realizar un análisis exploratorio de un conjunto de datos, creando visualizaciones, preparando los datos y obteniendo inferencias básicas de manera exhaustiva utilizando R/RStudio como herramienta de software.
 
 ### Integrantes:
 * <kbd>C</kbd>: César Mosqueira
